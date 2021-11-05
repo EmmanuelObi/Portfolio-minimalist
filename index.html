@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Emmanuel Obi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+      <div
+        class="box1 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.7s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.8s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.9s"
+      ></div>
+      <div
+        class="box2 animated bounceOutRight"
+        style="animation-delay: 1.9s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.8s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.7s"
+      ></div>
+    </div>
+    <a
+      id="about"
+      onclick="showabout()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s"
+      >about</a
+    >
+    <a
+      id="work"
+      onclick="showwork()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s"
+      >work</a
+    >
+    <a
+      href="mailto:obiemmy123@gmail.com"
+      id="contact"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s; text-decoration: none"
+      >contact</a
+    >
+    <div id="middle" class="animated slideInDown" style="animation-delay: 2s">
+      <h1>Emmanuel Obi</h1>
+      <h2>
+        I'm a Frontend Developer <br />
+        focused on creating responsive, user-friendly and accessible websites
+        and web applications. <br />
+        minimalist at heart.
+      </h2>
+      <div id="menu">
+        <a onclick="showabout()">about</a>
+        <a onclick="showwork()">work</a>
+        <a href="mailto:obiemmy123@gmail.com">contact</a>
+      </div>
+      <table>
+        <tr>
+          <td class="animated zoomIn" style="animation-delay: 2.2s">
+            <a
+              target="_blank"
+              href="https://codeprophet.hashnode.dev"
+              class="social"
+              ><i class="fas fa-blog"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.4s">
+            <a
+              target="_blank"
+              href="https://github.com/emmanuelobi"
+              class="social"
+              ><i class="fab fa-github"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.6s">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/koliko_official/"
+              class="social"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.8s">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/emmanuelobi20/"
+              class="social"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="work_container" class="container">
+      <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+      <h1>works.</h1>
+      <section>
+        <h2>CryptoCurrency Dashboard</h2>
+        <div class="work-info">
+          <p>
+            A digital platform that accept all the crypto accounts and/or coins
+            you add to it to monitor their ever-shifting value so that you can
+            manage both your crypto assets and related financial plans
+            accordingly
+          </p>
+          <div class="img">
+            <img src="/assets/fx-charts.jpg" alt="" />
+          </div>
+        </div>
+        <div id="used">
+          <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+          <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+          <div><i class="fas fa-circle"></i>&nbsp;ReactJs</div>
+        </div>
+        <a
+          target="_blank"
+          href="https://forextestcharts.netlify.app/"
+          class="btn_one"
+          >live</a
+        >
+        <a
+          target="_blank"
+          href="https://github.com/EmmanuelObi/Crypto-Dashboard"
+          class="btn_two"
+          >github</a
+        >
+      </section>
+      <section>
+        <h2>My Minimalist Portfolio</h2>
+        <div class="work-info">
+          <p>
+            Portfolio provides professional information me and presents a
+            showcase of work and a bit of what I can do.
+          </p>
+          <div class="img">
+            <img src="/assets/p-folio.jpg" alt="" />
+          </div>
+        </div>
+        <div id="used">
+          <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+          <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Jquery</div>
+        </div>
+        <a target="_blank" href="" class="btn_one">live</a>
+        <a target="_blank" href="" class="btn_two">github</a>
+      </section>
+      <section>
+        <h2>Data Visualization Platform</h2>
+        <div class="work-info">
+          <p>
+            Data visualization software that communicates information clearly
+            and efficiently via statistical graphics, plots and information
+            graphics.,It helps users analyze and reason about data using dots,
+            lines, or bars and makes complex data more accessible,
+            understandable and usable.
+          </p>
+          <div class="img">
+            <img src="/assets/Sky-high.jpg" alt="" />
+          </div>
+        </div>
+        <div id="used">
+          <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+          <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+          <div><i class="fas fa-circle"></i>&nbsp;ReactJs</div>
+        </div>
+        <a target="_blank" href="https://skyhig.netlify.app/" class="btn_one"
+          >live</a
+        >
+        <a
+          target="_blank"
+          href="https://github.com/EmmanuelObi/Data-Visualization-Platform"
+          class="btn_two"
+          >github</a
+        >
+      </section>
+    </div>
+    <div id="about_container" class="container">
+      <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+      <h1>about.</h1>
+      <section>
+        <h2>about me</h2>
+        <p>
+          Emmanuel Obi has been programming for around 2 years and tutoring for
+          over 6 months. He is a Frontend Developer, Technical Writer, Tutor and
+          an Electrical Engineering Major who loves to code. He specializes in
+          everything from HTML5 to front end frameworks like React. Emmanuel has
+          mastered the art of learning and always loves to share his knowledge.
+        </p>
+        <p>
+          Emmanuel has created a blog called CodeProphet where he publishes
+          articles about himself and african youths in general on Software
+          Engineering and Career Growth. Emmanuel is passionate about the tech
+          community and supports inclusion for women in technology. He
+          co-organizes community events and speaks at technology meetups on his
+          campus.
+        </p>
+      </section>
+      <section>
+        <h2>tools & technologies</h2>
+        <div class="skill">
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-html5 fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>HTML5</p>
+            <p class="detail">
+              Used HTML5 extensively in structuring and delivering web content
+              with proper understanding of the markup language and an eye for
+              best practices.
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-css3-alt fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>CSS3</p>
+            <p class="detail">
+              Used CSS3 extensively in styling and delivering web content with
+              proper understanding of design elements and an eye for best
+              practices.
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-bootstrap fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>Bootstrap</p>
+            <p class="detail">
+              Used Bootstrap CSS framework to further create responsive,
+              mobile-first User Interfaces. Makes styling easier and so much
+              faster.
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-sass fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>Sass</p>
+            <p class="detail">
+              Sass is an extension of CSS that helps me to use things like
+              variables, nested rules, inline imports and more. keeps things
+              organized
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-js fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>JavaScript</p>
+            <p class="detail">
+              Used JavaScript in interacting with and delivering web content.
+              With an eye for best practices and a nack for clean and efficient
+              code.
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-react fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>React</p>
+            <p class="detail">
+              Dabbled with React in recent months and hope to do more with it in
+              the future. A go to for creating Dynamic and efficient UI.
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-github fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>Git Version Control</p>
+            <p class="detail">
+              Used Git software to keep track of changes files, and coordinate
+              work with fellow programmers collaboratively developing source
+              code.
+            </p>
+          </div>
+          <div class="skill-cont">
+            <div class="icon">
+              <i class="fab fa-jira fa-2x" style="color: #e24d5c"></i>
+            </div>
+            <p>Jira</p>
+            <p class="detail">
+              Jira Software is an agile project management tool that I use. It
+              supports any agile methodology, be it scrum, kanban, or any unique
+              flavor.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="footer">
+      gathered by a human <br />
+      <a href="https://github.com/emmanuelobi">Emmanuel Obi</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
